@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zorglux-zorglub.com
+
+# Sitemaps
+Sitemap: https://zorglux-zorglub.com/sitemap.xml
