@@ -17,9 +17,16 @@ export default function Home() {
       </Head>
       <main>
         <h1>Bienvenue chez Zorglux</h1>
-        <p>
-          Zorglux est votre destination numéro un pour tout ce qui concerne Zorglub. Explorez notre site pour en savoir plus sur ce personnage emblématique et ses aventures.
-        </p>
+        <p>Découvrez Zorglux, votre destination ultime pour tout ce qui concerne Zorglub, l&apos;ennemi du héros Zurglux dans l&apos;anime célèbre. Plongez dans l&apos;univers fascinant de Zorglub, explorez ses aventures, et apprenez-en plus sur ce personnage emblématique.</p>
+        <img src="/images/zorglub-home.jpg" alt="Zorglub" />
+        <section>
+          <h2>Nos Dernières Aventures</h2>
+          <ul>
+            <li><a href="/blog/zorglub-vs-zurglux">Zorglub vs Zurglux: Une Bataille Épique</a></li>
+            <li><a href="/blog/les-origines-de-zorglub">Les Origines de Zorglub</a></li>
+            <li><a href="/blog/les-armes-de-zorglub">Les Armes Secrètes de Zorglub</a></li>
+          </ul>
+        </section>
       </main>
     </div>
   );

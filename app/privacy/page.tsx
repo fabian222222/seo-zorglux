@@ -10,9 +10,13 @@ export default function Privacy() {
       </Head>
       <main>
         <h1>Politique de Confidentialité</h1>
-        <p>
-          Votre vie privée est importante pour nous. Lisez notre politique de confidentialité pour en savoir plus sur la manière dont nous protégeons vos données.
-        </p>
+        <p>Chez Zorglux, nous prenons la confidentialité de vos données très au sérieux. Cette politique explique comment nous collectons, utilisons et protégeons vos informations personnelles.</p>
+        <section>
+          <h2>Collecte des Informations</h2>
+          <p>Nous collectons des informations lorsque vous visitez notre site, vous inscrivez à notre newsletter, ou effectuez un achat.</p>
+          <h2>Utilisation des Informations</h2>
+          <p>Vos informations sont utilisées pour améliorer votre expérience utilisateur, traiter vos commandes, et vous envoyer des mises à jour importantes.</p>
+        </section>
       </main>
     </div>
   );
