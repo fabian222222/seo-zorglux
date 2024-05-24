@@ -3,7 +3,7 @@ import Navigation from './Components/Navigation';
 import './styles/globals.css';
 
 export const metadata = {
-  title: 'Zorglux zorglub fan page',
+  title: "Zorglux - L'univers de Zorglub",
   description: 'This is a fan page of story zorglub x zorglux',
   keywords: "Zorglux, Zorglub, bande dessinée, page d'accueil",
   author: "Zorglux Zorglub team",
