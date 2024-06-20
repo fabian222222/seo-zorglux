@@ -18,11 +18,11 @@ export default function About() {
                 <SectionContainer>
                     <Title>À propos de Zorglux</Title>
                     <p>
-                        Bienvenue sur notre page 'À propos' dédiée à Zorglux, un
-                        personnage emblématique de l&apos;univers Spirou. Ici,
-                        vous découvrirez tout ce qu&apos;il y a à savoir sur
-                        Zorglux et son impact dans le monde de la bande
-                        dessinée.
+                        Bienvenue sur notre page &apos;À propos&apos; dédiée à
+                        Zorglux, un personnage emblématique de l&apos;univers
+                        Spirou. Ici, vous découvrirez tout ce qu&apos;il y a à
+                        savoir sur Zorglux et son impact dans le monde de la
+                        bande dessinée.
                     </p>
 
                     <Title>L&apos;Origine de Zorglux</Title>
