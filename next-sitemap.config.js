@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: "https://zorglux-zorglub.com",
+    siteUrl: "https://www.zorglux.fyi/",
     generateRobotsTxt: true,
 };

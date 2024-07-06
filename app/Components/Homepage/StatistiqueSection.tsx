@@ -67,6 +67,7 @@ const RedText = styled.span`
 const StatsContainer = styled.section`
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
     margin-bottom: 200px;
 `;

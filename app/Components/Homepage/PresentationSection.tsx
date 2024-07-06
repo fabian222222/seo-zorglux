@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const PresentationSection = () => {
     return (
@@ -21,7 +22,15 @@ const PresentationSection = () => {
                         COMPTEZ SUR ZORGLUX SON SEUL ENNEMI JURÉ
                     </HomepageDescription>
                     <HomepageDiscoverButton>
-                        Découvrir son histoire
+                        <Link
+                            style={{
+                                textDecoration: 'none',
+                                color: 'white',
+                            }}
+                            href="/about"
+                        >
+                            <p>Découvrir mon histoire</p>
+                        </Link>
                     </HomepageDiscoverButton>
                     <ComicContainer>
                         <Comic>
@@ -30,6 +39,9 @@ const PresentationSection = () => {
                                 width={185}
                                 height={232}
                                 alt="Image de zorglux debout avec un globe en guise de canne"
+                                style={{
+                                    height: '100%',
+                                }}
                             />
                         </Comic>
                         <Comic>
@@ -38,6 +50,9 @@ const PresentationSection = () => {
                                 width={185}
                                 height={232}
                                 alt="Image de zorglux debout avec un globe en guise de canne"
+                                style={{
+                                    height: '100%',
+                                }}
                             />
                         </Comic>
                         <Comic>
@@ -46,6 +61,9 @@ const PresentationSection = () => {
                                 width={185}
                                 height={232}
                                 alt="Image de zorglux debout avec un globe en guise de canne"
+                                style={{
+                                    height: '100%',
+                                }}
                             />
                         </Comic>
                         <Comic>
@@ -55,6 +73,9 @@ const PresentationSection = () => {
                                 width={190}
                                 height={232}
                                 alt="Image de zorglux debout avec un globe en guise de canne"
+                                style={{
+                                    height: '100%',
+                                }}
                             />
                         </Comic>
                     </ComicContainer>
@@ -70,6 +91,11 @@ const Container = styled.div`
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
+
+    @media (max-width: 750px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 `;
 
 const ContainerLeft = styled.div`
@@ -78,6 +104,10 @@ const ContainerLeft = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 750px) {
+        display: none;
+    }
 `;
 const ContainerRight = styled.div`
     width: 70%;
@@ -89,6 +119,12 @@ const ContainerRight = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media (max-width: 750px) {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 `;
 
 const HomepageDescription = styled.h2`
@@ -113,6 +149,11 @@ const ComicContainer = styled.div`
     margin-top: 20px;
     width: 100%;
     justify-content: space-between;
+
+    @media (max-width: 750px) {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 `;
 
 const Comic = styled.div`

@@ -21,11 +21,26 @@ const Footer = () => {
                 <h3 style={{ fontFamily: 'BouncyThin', marginBottom: 10 }}>
                     Réseaux de zorglux
                 </h3>
-                <LinkCustom href="/home">Twitter</LinkCustom>
-                <LinkCustom href="/about">Youtube</LinkCustom>
-                <LinkCustom href="/products">Instagram</LinkCustom>
-                <LinkCustom href="/blog">Pinterest</LinkCustom>
+                <LinkCustom
+                    href="https://x.com/zorglux_zorglub"
+                    target="_blank"
+                >
+                    Twitter
+                </LinkCustom>
+                <LinkCustom
+                    href="https://www.tiktok.com/@zorglux_zorglub"
+                    target="_blank"
+                >
+                    Tiktok
+                </LinkCustom>
+                <LinkCustom
+                    href="https://www.pinterest.fr/zorgluxzorglub/"
+                    target="_blank"
+                >
+                    Pinterest
+                </LinkCustom>
                 <LinkCustom href="/contact">Behance</LinkCustom>
+                <LinkCustom href="/about">Youtube</LinkCustom>
             </FooterLinkContainer>
         </FooterSection>
     );

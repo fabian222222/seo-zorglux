@@ -124,6 +124,10 @@ const PageContainer = styled.div`
     gap: 50px;
     margin-top: 50px;
     align-items: center;
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+    }
 `;
 
 const ImageContainer = styled.div`
@@ -136,6 +140,11 @@ const ImageContainer = styled.div`
 const DescriptionContainer = styled.div`
     width: 60%;
     padding: 100px;
+
+    @media (max-width: 750px) {
+        width: 100%;
+        padding: 20px;
+    }
 `;
 
 const DescriptionContainerTitle = styled.h2`
@@ -154,6 +163,7 @@ const ImagesContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 `;
 
 export default OtherSuccessSection;

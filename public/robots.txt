@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://zorglux-zorglub.com
+Host: https://www.zorglux.fyi/
 
 # Sitemaps
-Sitemap: https://zorglux-zorglub.com/sitemap.xml
+Sitemap: https://www.zorglux.fyi/sitemap.xml
